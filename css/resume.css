@@ -93,7 +93,12 @@ p.lead {
 .social-icons a:hover {
   background-color: #9E9E9E;
 }
+img {
+  width:100%;
+  height:auto;
+  display: block;
 
+}
 
 
 
@@ -150,22 +155,19 @@ p.lead {
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   .img-promo{
-    max-height: 100%;
-    max-width: 100%;
-    width: 50rem;
-    height: auto;
-    display: block;
+    max-width: 70%;
+    max-height: 70%;
 
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .img-playstore{
-    max-height: 100%;
-    max-width: 100%;
     display: block;
 
-    width: 20rem;
-    height: auto;
+  }
+  .img-playstore{
+    max-width: 30%;
+    max-height: 30%;
+    display: block;
+
 
   }
   #sideNav .navbar-collapse {
