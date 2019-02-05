@@ -205,8 +205,10 @@ section.resume-section {
   max-width: 75rem;
 }
 embed{
+
   width:100%;
-  display: block;
+
+
 
 }
 section.resume-section .resume-item .resume-date {
